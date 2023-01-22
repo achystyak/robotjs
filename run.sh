@@ -1,0 +1,1 @@
+cd lib && npm i && npm start

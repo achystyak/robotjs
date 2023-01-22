@@ -1,0 +1,17 @@
+{
+  "name": "robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nut-tree/nut-js": "^3.0.0",
+    "@nut-tree/template-matcher": "^2.0.0",
+    "fs": "^0.0.1-security"
+  }
+}

@@ -1,0 +1,33 @@
+---
+Scenes:
+  - Name: close robot.js tab
+    MouseSpeed: 10
+    Actions:
+      - Mouse:move:
+          image: robotjs_tab.png
+          region:
+            height: 200
+      - Mouse:click: right
+      - Mouse:move:
+          x:
+            offset: 50
+          y:
+            offset: 10
+      - Mouse:click: left
+      - Keyboard:press: Enter
+      - Keyboard:release: Enter
+
+  - Name: type hello world
+    MouseSpeed: 10
+    Actions:
+      - Mouse:move:
+          x: 1000
+          y: 500
+      - Mouse:click: left
+      - Keyboard:type: Hello!
+
+Run:
+  - Scenes:
+      - type hello world
+      - close robot.js tab
+  - Actions:
